@@ -1,0 +1,80 @@
+/* styles.css */
+body, html {
+    font-family: 'Arial', sans-serif;
+    padding: 0;
+    margin: 0;
+    background: #fff0f5; /* Light pink background */
+    color: #333;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #ffe4e1; /* Light pink */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #c71585; /* Deep pink */
+}
+
+h2#name { /* Specific styles for the name element */
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: #ff1493; /* Brighter pink */
+    font-weight: normal;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+input, textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #ffb6c1; /* Light pink border */
+    border-radius: 4px;
+    resize: none;
+}
+
+button {
+    background-color: #ff69b4; /* Hot pink */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff1493; /* Deeper pink on hover */
+}
+
+.entry {
+    margin-top: 20px;
+    background: #f8f0f8; /* Very light pink */
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.entry span, .entry p {
+    display: block;
+    margin: 5px 0;
+}
+
+#temp {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #db7093; /* Pale violet red */
+}
+
+#content {
+    font-style: italic;
+    color: #d87093; /* Moderate pink */
+}
